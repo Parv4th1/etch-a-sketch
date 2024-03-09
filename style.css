@@ -1,0 +1,19 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-box
+{
+    height: 500px;
+    border: 1px solid #000;
+}
+.grid-container
+{
+    height: 1000px;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
