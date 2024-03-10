@@ -4,7 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body
+{
+    background-color: #DFE1E2;
+}
 .grid-box
 {
     /*border: 1px solid #E6E7E8;*/
@@ -12,10 +15,12 @@
 }
 .grid-container
 {
-    height: 1000px;
-    width: 1000px;
+    height: 1002px;
+    width: 1002px;
     display: flex;
     flex-wrap: wrap;
+    background-color: #e8e9e9;
+    border: 1px solid #e1e2e3;
 }
 .wrap
 {
