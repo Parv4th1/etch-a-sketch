@@ -7,8 +7,7 @@
 
 .grid-box
 {
-    height: 500px;
-    border: 1px solid #E6E7E8;
+    /*border: 1px solid #E6E7E8;*/
     display: flex;
 }
 .grid-container
@@ -17,7 +16,6 @@
     width: 1000px;
     display: flex;
     flex-wrap: wrap;
-    padding: 30px;
 }
 .wrap
 {
@@ -32,4 +30,8 @@ h1
 header
 {
     padding: 20px;
+}
+button
+{
+    margin-bottom: 30px;
 }
